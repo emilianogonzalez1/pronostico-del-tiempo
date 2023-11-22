@@ -1,0 +1,33 @@
+#main-card{
+    color: white;
+    background-color: rgb(90, 89, 89);
+    border: 2px solid;
+    border-color:black;
+}
+
+#title-card{
+border-bottom-color:black;
+}
+
+#clima-card{
+    border-top-color:black;
+}
+
+#clima{
+    color: white;
+}
+
+#pron{
+    border-color: black;
+    background-color: black;
+}
+
+#pron:hover{
+    color: white;
+    border-color: black;
+    background-color: black;
+}
+
+#ciudad{
+    border-color: black;
+}

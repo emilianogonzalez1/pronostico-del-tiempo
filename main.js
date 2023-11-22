@@ -11,9 +11,6 @@ fetch(GEO_URL)
 .then(response => response.json())
 .then(data => {
 
-    
-
-
     if(data.length === 0){
         alert.classList.remove('d-none');
         contenedor.classList.add('d-none');
@@ -29,7 +26,6 @@ fetch(GEO_URL)
         .then(response => response.json())
         .then(data => {
             
-    
            contenedor.innerHTML = `
             <p class="temp" id="temp">Temperatura: ${Math.trunc(data.main.temp - 273.15)}°C</p>
             <p class="humedad" id="humedad">Humedad: ${data.main.humidity}%</p>
@@ -39,8 +35,6 @@ fetch(GEO_URL)
         
         }) 
     }
-
-
 
 })
 })
