@@ -5,7 +5,7 @@ const alert = document.querySelector('.alert');
 const city = document.querySelector('#ciudad').value
 const contenedor = document.querySelector('.clima');
 
-const GEO_URL = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=d9680d24d8bb7192b8ba4825ba5833de`
+const GEO_URL = `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=d9680d24d8bb7192b8ba4825ba5833de`
 
 fetch(GEO_URL)
 .then(response => response.json())
